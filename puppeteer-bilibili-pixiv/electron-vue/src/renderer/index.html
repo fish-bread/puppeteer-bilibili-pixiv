@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>FishBread</title>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' http://localhost:3000/ blob: https://files.vidstack.io/sprite-fight/thumbnails.vtt; script-src 'self' ;  media-src my-video: my-audio:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: http://localhost:3000/ my-photo: https://files.vidstack.io/sprite-fight/storyboard.jpg"
+    />
+    <style>
+      body {
+          margin: 0;
+          padding: 0;
+          border: 0;
+      }
+      body,html {
+        width :100vw;
+        height: 100vh;
+
+      }
+      body::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
