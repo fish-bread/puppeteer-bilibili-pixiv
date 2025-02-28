@@ -14,6 +14,7 @@ allowing resource scraping without user login.
 无需用户登录即可爬取资源
 
 ## 使用前提
+At present, only ensure that the windows system can be used, please make sure that the computer is configured with the node environment, and then configure the mongoDB database, create a new users library, and create the user table and userHistory table in the users library, and then execute npm install (windows note to enable manager identity run) to build the node_modules folder for electron-vue and koa respectively. Then you can use it
 
 目前只确保windows系统可以使用,请确保电脑配置了node环境,其次要配置mongoDB数据库,新建一个users库,并在users库中创建user表和userHistory表,然分别对electron-vue和koa执行npm install(windows注意启用管理者身份运行)构建node_modules文件夹,然后就可以使用
 
