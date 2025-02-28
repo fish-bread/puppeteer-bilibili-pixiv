@@ -13,7 +13,12 @@ allowing resource scraping without user login.
 依靠用户传递的cookie和bilibili视频网页链接或pixiv图片网页链接,
 无需用户登录即可爬取资源
 
+## 使用前提
+
+目前只确保windows系统可以使用,请确保电脑配置了node环境,其次要配置mongoDB数据库,新建一个users库,并在users库中创建user表和userHistory表,然分别对electron-vue和koa执行npm install(windows注意启用管理者身份运行)构建node_modules文件夹,然后就可以使用
+
 ## Npm install
+
 ```bash
 $ npm install
 ```
@@ -25,8 +30,8 @@ $ npm install
 $ npm run dev
 ```
 
-### Build
-### 构建
+### Build app
+### 构建app
 
 ```bash
 # For windows
