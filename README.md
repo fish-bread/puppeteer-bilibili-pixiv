@@ -1,5 +1,6 @@
 # puppeteer-bilibili-pixiv
-基于puppeteer用于爬取bilibili视频或pixiv图片  Based on puppeteer, it is used to crawl bilibili videos or pixiv images
+
+puppeteer用于爬取bilibili视频及pixiv图片
 
 ## Project Description:
 ## 项目描述
@@ -11,12 +12,6 @@ allowing resource scraping without user login.
 使用puppeteer,以用户cookie为核心设计的一个爬虫软件,
 依靠用户传递的cookie和bilibili视频网页链接或pixiv图片网页链接,
 无需用户登录即可爬取资源
-
-## The original intention of the project
-## 立项初衷
-
-## Project Setup
-## 项目设置
 
 ## Npm install
 ```bash
@@ -43,3 +38,4 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+
