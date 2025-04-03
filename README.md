@@ -1,4 +1,4 @@
-# puppeteer-bilibili-pixiv 禁止商用
+# puppeteer-bilibili-pixiv
 
 puppeteer用于爬取bilibili视频及pixiv图片
 
